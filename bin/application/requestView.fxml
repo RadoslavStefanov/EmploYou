@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.requestViewController">
+   <children>
+      <TextField fx:id="ticketName" layoutX="33.0" layoutY="165.0" prefHeight="25.0" prefWidth="177.0" promptText="Ticket Name" />
+      <TextField fx:id="ticketDescription" alignment="TOP_LEFT" layoutX="33.0" layoutY="210.0" prefHeight="147.0" prefWidth="538.0" promptText="Please describe the problem you want us to solve." />
+      <Button layoutX="96.0" layoutY="361.0" mnemonicParsing="false" onAction="#cancel" text="CANCEL" />
+      <Button layoutX="455.0" layoutY="361.0" mnemonicParsing="false" onAction="#send" text="SEND" />
+      <Label layoutX="33.0" layoutY="148.0" text="Ticket name" />
+      <Label layoutX="33.0" layoutY="195.0" text="Description" />
+      <ImageView fitHeight="135.0" fitWidth="297.0" layoutX="180.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/eyBannerLogo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ticketRequester" layoutX="394.0" layoutY="165.0" prefHeight="25.0" prefWidth="177.0" promptText="request from User" />
+      <Label layoutX="517.0" layoutY="149.0" text="Username" />
+   </children>
+</AnchorPane>

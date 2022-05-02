@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseMoved="#load" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.staffViewController">
+   <children>
+      <ScrollPane fx:id="scrollPane" layoutY="120.0" prefHeight="280.0" prefWidth="600.0">
+         <content>
+            <FlowPane fx:id="flowPane" prefHeight="280.0" prefWidth="600.0" />
+         </content>
+      </ScrollPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/eyBannerLogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutY="95.0" text="EMPLOYOU STAFF">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
