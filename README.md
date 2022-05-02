@@ -7,7 +7,6 @@ The application itself is a desktop Java application with a UI assembled with Ja
 Main features: Ticket System, Account history tracker, Dynamic data, Role manager.
 
 Pictures:
-
 ![image](https://user-images.githubusercontent.com/72268734/166223144-70fb998d-f2b5-4474-82a4-817222b5923b.png)
 ![image](https://user-images.githubusercontent.com/72268734/166223175-13b3e937-abbb-4376-a674-21d43233762b.png)
 ![image](https://user-images.githubusercontent.com/72268734/166223190-06c6b438-f4f7-461e-8930-ef0e0a2083f7.png)
